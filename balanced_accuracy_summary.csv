@@ -1,0 +1,3 @@
+dataset,n_seeds,mean_balanced_accuracy,std_balanced_accuracy,best_seed
+PAN25 multiclass,3,0.6152,0.0088,2022
+AuthorMix,3,0.8572,0.0052,11

@@ -1,0 +1,23 @@
+# Core
+numpy>=1.26,<2
+pandas==2.2.2
+scipy==1.12.0
+
+# Deep Learning
+torch>=2.0
+transformers>=4.40
+datasets>=2.18
+accelerate>=0.28
+
+# Attribution
+captum>=0.7
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+
+# ML Metrics
+scikit-learn==1.5.2
+
+# NLP
+nltk>=3.8
