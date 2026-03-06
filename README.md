@@ -52,7 +52,6 @@ AP Thesis project investigating what textual features drive correct classificati
 │   ├── balanced_accuracy_summary.csv
 │   ├── *_per_class_accuracy_validation.csv
 │   ├── *_full_validation_all_methods_ratios.csv
-│   ├── *_full_validation_all_methods_attributions.json
 │   ├── *_ratio_summary.csv
 │   └── *_agreement_summary.csv
 │
