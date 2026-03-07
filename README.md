@@ -1,6 +1,6 @@
 # Authorship Attribution with BERT: Feature Attribution Analysis
 
-AP Thesis project investigating what textual features drive correct classification by a fine-tuned BERT authorship classifier, with the goal of informing future obfuscation strategies.
+Practical work project investigating what textual features drive correct classification by a fine-tuned BERT authorship classifier, with the goal of informing future obfuscation strategies.
 
 ## Research Questions
 
