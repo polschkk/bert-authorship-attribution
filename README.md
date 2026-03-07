@@ -2,7 +2,7 @@
 
 Practical work project investigating what textual features drive correct classification by a fine-tuned BERT authorship classifier, with the goal of informing future obfuscation strategies.
 
-## Research Questions
+## Research questions
 
 1. What token-level features (content words, punctuation, stop words) does the BERT classifier rely on for authorship attribution?
 2. Are LLM-generated texts distinguishable from human-written texts, and what features differentiate them?
@@ -25,7 +25,7 @@ Practical work project investigating what textual features drive correct classif
 - **Best-seed balanced accuracy:** 92.6%
 - **Location:** `data/style-remix/AuthorMix/`
 
-## Project Structure
+## Project structure
 
 ```
 .
@@ -117,13 +117,13 @@ All notebooks are designed for **Google Colab** with a T4 GPU.
 
 Upload the `data/` folder to `My Drive/ap-thesis/data/` (or adjust `DATA_DIR` / `ROOT` paths in each notebook).
 
-### Step 2 — Run in order
+### Step 2 — Order
 
 ```
-1. baseline.ipynb          → trains BERT, saves models to runs/models/
-2. pan25_eda.ipynb         → EDA (independent, can run anytime)
-3. authormix_eda.ipynb     → EDA (independent, can run anytime)
-4. attribution.ipynb       → requires trained models from step 1
+1. baseline.ipynb             → trains BERT, saves models to runs/models/
+2. pan25_eda.ipynb            → EDA (independent)
+3. authormix_eda.ipynb        → EDA (independent)
+4. attribution.ipynb       
 5. attribution_enhanced.ipynb → requires outputs from step 4
 ```
 
