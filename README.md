@@ -1,4 +1,4 @@
-# Authorship Attribution: BERT and ModernBERT Feature Attribution Analysis
+# Authorship Attribution: BERT and ModernBERT feature attribution analysis
 
 The following project is investigating what textual features drive correct classification
 by fine-tuned BERT and ModernBERT authorship classifiers, with the goal of informing
