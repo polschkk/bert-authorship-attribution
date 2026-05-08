@@ -54,13 +54,13 @@ future obfuscation strategies.
 │   ├── pan25_eda.ipynb                          # EDA - PAN25 dataset
 │   ├── authormix_eda.ipynb                      # EDA - AuthorMix dataset
 │   │
-│   ├── baseline.ipynb                           # BERT fine-tuning and evaluation
-│   ├── attribution.ipynb                        # BERT attribution (IG, SHAP, AR)
-│   ├── attribution_enhanced.ipynb               # BERT attribution analysis
+│   ├── baseline_bert.ipynb                      # BERT fine-tuning and evaluation
+│   ├── attribution_bert.ipynb                   # BERT attribution (IG, SHAP, AR)
+│   ├── attribution_analysis_bert.ipynb          # BERT attribution analysis
 │   │
 │   ├── baseline_modernbert.ipynb                # ModernBERT fine-tuning and evaluation
 │   ├── attribution_modernbert.ipynb             # ModernBERT attribution (IG, SHAP, AR)
-│   └── attribution_enhanced_modernbert.ipynb    # ModernBERT attribution analysis
+│   └── attribution_analysis_modernbert.ipynb    # ModernBERT attribution analysis
 │
 ├── results/
 │   ├── balanced_accuracy_summary.csv            # BERT accuracy across seeds
@@ -73,8 +73,8 @@ future obfuscation strategies.
 │   └── authormix_modernbert_*.csv / .json       # ModernBERT attribution results - AuthorMix
 │
 └── reports/
-    ├── ATTRIBUTION_REPORT_BERT.pdf              # BERT attribution findings (PDF)
-    └── ATTRIBUTION_REPORT_MODERNBERT.pdf        # ModernBERT attribution findings (PDF)
+    ├── REPORT_BERT.pdf                          # BERT attribution findings (PDF)
+    └── REPORT_MODERNBERT.pdf                    # ModernBERT attribution findings (PDF)
 ```
 
 
