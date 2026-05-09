@@ -1,0 +1,5 @@
+dataset,model,metric,mean,std,best
+PAN25 multiclass,BERT,eval_balanced_accuracy,0.6152,0.0088,0.6226
+PAN25 multiclass,ModernBERT,eval_balanced_accuracy,0.7967,0.0065,0.8024
+AuthorMix,BERT,eval_balanced_accuracy,0.8572,0.0052,0.8617
+AuthorMix,ModernBERT,eval_balanced_accuracy,0.8784,0.0041,0.8818
