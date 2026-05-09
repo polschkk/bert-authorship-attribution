@@ -133,19 +133,19 @@ path variable at the top of each notebook).
 Run in the following order:
 
 ```
-# Exploratory (optional, run independently)
+# Exploratory (optional)
 pan25_eda.ipynb
 authormix_eda.ipynb
 
 # BERT pipeline
 1. baseline.ipynb                          → trains BERT, saves to runs/models/
 2. attribution.ipynb                       → requires step 1
-3. attribution_enhanced.ipynb              → requires step 2
+3. attribution_analysis.ipynb              → requires step 2
 
 # ModernBERT pipeline
 4. baseline_modernbert.ipynb               → trains ModernBERT, saves to runs/models/
 5. attribution_modernbert.ipynb            → requires step 4
-6. attribution_enhanced_modernbert.ipynb   → requires step 5
+6. attribution_analysis_modernbert.ipynb   → requires step 5
 ```
 
 Dependencies are installed inline in each notebook. For local runs:
